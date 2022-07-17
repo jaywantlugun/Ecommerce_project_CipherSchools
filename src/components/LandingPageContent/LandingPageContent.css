@@ -1,0 +1,35 @@
+.landingpagecontent{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.landingpagecontent_subtitle > p {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingpagecontent_top{
+    display: flex;
+    height: 50vh;
+}
+
+.landingpagecontent_top > p{
+    
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    font-size: 250%;
+}
+
+.landingpagecontent_top > img{
+    
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+}

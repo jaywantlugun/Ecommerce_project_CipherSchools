@@ -1,0 +1,10 @@
+1. firbase login
+2. firbase init
+3.  -> select hosting
+    -> use an existing project
+    -> choose project name
+    -> Public directory -> build
+    -> Configure as a single-page app -> Y
+    -> Set up automatic builds and deploys with GitHub? -> N
+4. npm run build  
+5. firbase deploys

@@ -1,0 +1,14 @@
+
+
+
+
+1. landing page
+-> Navbar
+    -Image(left)
+    -Button (right)
+->body
+  -title 
+  -subtitle
+  -description
+  -Input Field And Button
+  

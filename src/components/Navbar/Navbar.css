@@ -1,0 +1,89 @@
+.navbar_container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+    height: 9vh;
+    color: azure;
+}
+
+
+.navbar_container_mainlogo{
+    
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+}
+
+.navbar_container_mainlogo > img{
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.navbar_container_search{
+    
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+.navbar_container_search > input{
+    width: 90%;
+    height: 40%;
+    border-radius: 7px;
+}
+.navbar_container_search > img{
+    background-color: orange;
+    height: 60%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.navbar_container_signin{
+    
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar_container_signin > p{
+    font-size: 2.5vh;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar_container_signin > p:hover{
+    color: orange;
+}
+
+.navbar_container_orders{
+    
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2.5vh;
+    
+}
+
+.navbar_container_orders > img{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.navbar_container_orders > img:hover{
+    background-color: orange;
+}
+
+.navbar_container_orders > p:hover{
+    color: orange;
+    cursor: pointer;
+    
+}
