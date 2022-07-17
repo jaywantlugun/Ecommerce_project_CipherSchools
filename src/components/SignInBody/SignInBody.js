@@ -76,7 +76,6 @@ function SignInBody({ setIsUserLoggedIn }) {
                         <input placeholder={SIGN_IN_BODY_TEXT.EMAIL_PLACEHOLDER} value={email} onChange={event => setEmail(event.target.value)} />
                         <input placeholder={SIGN_IN_BODY_TEXT.PASSWORD_PLACEHOLDER} type="password" value={password} onChange={event => setPassword(event.target.value)} />
                         <Button button_name={SIGN_IN_BODY_TEXT.SIGN_IN} onClicking={signIn}/>
-                        <Button button_name={SIGN_IN_BODY_TEXT.LOGIN_AS_GUEST_USER} />
                         <p className='signinbody_text'>New to website? <span onClick={() => (setSignInPageAs(false))}>{SIGN_IN_BODY_TEXT.SIGN_UP_NOW}</span></p>
                     </div>
                 </div>) : (
@@ -89,7 +88,6 @@ function SignInBody({ setIsUserLoggedIn }) {
                         <input placeholder={SIGN_IN_BODY_TEXT.EMAIL_PLACEHOLDER} value={email} onChange={event => setEmail(event.target.value)} />
                         <input placeholder={SIGN_IN_BODY_TEXT.PASSWORD_PLACEHOLDER} type="password" value={password} onChange={event => setPassword(event.target.value)} />
                         <Button onClicking={signUp} button_name={SIGN_IN_BODY_TEXT.SIGN_UP} />
-                        <Button button_name={SIGN_IN_BODY_TEXT.LOGIN_AS_GUEST_USER} />
                         <p className='signinbody_text'>Already a member? <span onClick={() => (setSignInPageAs(true))}>Sign In</span></p>
                     </div>
                 </div>
